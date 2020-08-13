@@ -9,9 +9,8 @@ class Shoe
     if BRANDS.include? "#{brand}"
       nil
     else
-      BRANDS << brand    
-
-
+      BRANDS << brand
+    end
   end
 
   def cobble
