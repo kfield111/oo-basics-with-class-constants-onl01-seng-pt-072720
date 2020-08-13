@@ -6,10 +6,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    if BRANDS.include? "#{brand}"
-      nil
-    else
-      BRANDS << brand
+    BRANDS.include? "#{brand}" ? nil : BRANDS << brand
     end
   end
 
